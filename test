@@ -1,0 +1,73 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+
+PS C:\Users\valero\Desktop\portfolioWeb> git status
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\valero\Desktop\portfolioWeb> git commit -m "commit 2"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\valero\Desktop\portfolioWeb> git push
+fatal: unable to access 'https://github.com/Cla4rk/portfolioWeb.git/': The requested URL returned error: 403
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/Cla4rk/portfolioWeb.git/'
+PS C:\Users\valero\Desktop\portfolioWeb> git push
+  2. Personal access token
+option (enter for default): 1
+info: please complete authentication in your browser...
+Everything up-to-date
+PS C:\Users\valero\Desktop\portfolioWeb> git push
+Everything up-to-date
+PS C:\Users\valero\Desktop\portfolioWeb> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\valero\Desktop\portfolioWeb> git add *
+PS C:\Users\valero\Desktop\portfolioWeb> git commit -m "2 commit"
+[main 81e3669] 2 commit
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+PS C:\Users\valero\Desktop\portfolioWeb> git config --global user.name "Cla4rk"   
+PS C:\Users\valero\Desktop\portfolioWeb> git config --global user.email santiagovalero99@gmail.com
+PS C:\Users\valero\Desktop\portfolioWeb> git push 
+Enumerating objects: 5, done.
+Delta compression using up to 4 threads
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+   9808ff5..81e3669  main -> main
+PS C:\Users\valero\Desktop\portfolioWeb> git status
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\valero\Desktop\portfolioWeb> git push
+Everything up-to-date
+PS C:\Users\valero\Desktop\portfolioWeb> git add *
+PS C:\Users\valero\Desktop\portfolioWeb> git push
+Everything up-to-date
+PS C:\Users\valero\Desktop\portfolioWeb> git add *
+PS C:\Users\valero\Desktop\portfolioWeb> git commit -m "commit test"
+[main 0d355d9] commit test
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\valero\Desktop\portfolioWeb> git push 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 284 bytes | 142.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Cla4rk/portfolioWeb.git
+   81e3669..0d355d9  main -> main
+PS C:\Users\valero\Desktop\portfolioWeb> 
