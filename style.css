@@ -80,7 +80,7 @@ section .title::after{
   .line-1{
       color: white;
       position: relative;
-      margin-top: 19px;
+      margin-top: 20px;
       width: 100%;
       border-right: 2px solid rgba(255,255,255,.75);
       font-size: 18px;
@@ -98,7 +98,7 @@ section .title::after{
   }
   @keyframes typewriter{
     from{width: 0;}
-    to{width: 12em;}
+    to{width: 13em;}
   }
   @keyframes blinkTextCursor{
     from{border-right-color: rgba(255,255,255,.75);}
@@ -109,9 +109,14 @@ section .title::after{
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 30px 0;
+    padding: 5px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: saturate(80%);
+    backdrop-filter:blur(4px) ;
+
+
 }
 .navbar.sticky{
     padding: 15px 0;
