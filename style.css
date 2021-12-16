@@ -38,7 +38,7 @@ section{
     margin: auto;
 }
 .about, .services, .skills, .teams, .contact, footer{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'SF Pro', sans-serif;
 }
 .about .about-content,
 .services .serv-content,
@@ -56,7 +56,7 @@ section .title{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
 }
 section .title::before{
     content: "";
@@ -73,7 +73,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #0071e3;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -108,7 +108,7 @@ section .title::after{
   }
   @keyframes typewriter{
     from{width: 0;}
-    to{width: 10em;}
+    to{width: 11em;}
   }
   @keyframes blinkTextCursor{
     from{border-right-color: rgba(255,255,255,.75);}
@@ -120,15 +120,15 @@ section .title::after{
     width: 100%;
     z-index: 999;
     padding: 2px 0;
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'SF Pro Display 400', sans-serif;
     transition: all 0.3s ease;
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: saturate(90%);
-    backdrop-filter:blur(6px) ;
+    backdrop-filter:blur(10px) ;
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: #0071e3;
 }
 .navbar .max-width{
     display: flex;
@@ -156,7 +156,7 @@ section .title::after{
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 500;
-    margin-left: 50px;
+    margin-left: 90px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
@@ -177,7 +177,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #0071e3;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -277,32 +277,32 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: #0071e3;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background: #0071e3;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #0071e3;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: #0071e3;
     background: none;
 }
 
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #111;
+    background: #122239;
 }
 .services .title::before,
 .teams .title::before{
@@ -310,12 +310,13 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background: #122239;
     content: "what i provide";
+    font-family: 'SF Pro Display', sans-serif;
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #122239;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -323,7 +324,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: #0071e3;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -333,7 +334,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: #0071e3;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -356,25 +357,25 @@ section .title::after{
 .skills .skills-content .left .text{
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 10px;    
 }
 .skills .skills-content .left p{
     text-align: justify;
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: crimson;
+    background: #0071e3;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #0071e3;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: crimson;
+    color: #0071e3;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -402,7 +403,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: #0071e3;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -433,7 +434,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: crimson;
+    background: #0071e3;
 }
 .teams .carousel .card .box{
     display: flex;
@@ -455,7 +456,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid #0071e3;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
@@ -471,7 +472,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid #0071e3!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -480,12 +481,13 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
+    background: #0071e3!important;
 }
 
 /* contact section styling */
 .contact .title::after{
     content: "get in touch";
+    font-family: 'SF Pro Display', sans-serif;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -511,7 +513,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: #0071e3;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -570,23 +572,23 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
+  background: #0071e3;
+  border: 2px solid #0071e3;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: crimson;
+  color: #0071e3;
   background: none;
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: #122239;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    color: #0071e3;
     text-decoration: none;
 }
 footer span a:hover{
