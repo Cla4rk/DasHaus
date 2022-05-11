@@ -272,7 +272,7 @@ section{
     margin: auto;
 }
 .about, .services, .skills, .teams, .contact, footer{
-    font-family: 'SF Pro', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 .about .about-content,
 .services .serv-content,
@@ -378,8 +378,8 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "who i am";
-    font-family: 'SF Pro Display', sans-serif;
+    content: "";
+    font-family: 'Inter', sans-serif;
 }
 .about .about-content .left{
     width: 45%;
@@ -433,19 +433,19 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #122239;                                                                                                                                                            
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 .services .serv-content .card{                                                                                                              
     width: calc(33% - 20px);
-    background: #122239;                
-    text-align: center;             
+    background: #131313;                
+    text-align: Left;             
     border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #0071e3;
+    background: #131313;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -544,7 +544,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "content";
+    content: "";
 }
 .teams .carousel .card{
     background: #222;
@@ -608,7 +608,7 @@ section .title::after{
 /* contact section styling */
 .contact .title::after{
     content: "get in touch";
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -703,7 +703,7 @@ section .title::after{
 }
 /* footer section styling */
 footer{
-    background: #122239;
+    background: #131313;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
@@ -724,7 +724,7 @@ footer span a:hover{
         width: 350px;
     }
 }
-
+ 
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
