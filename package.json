@@ -1,0 +1,23 @@
+{
+  "name": "dashaus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cla4rk/porftolioWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cla4rk/porftolioWeb/issues"
+  },
+  "homepage": "https://github.com/Cla4rk/porftolioWeb#readme",
+  "dependencies": {
+    "smooth-scrollbar": "^8.7.4"
+  }
+}

@@ -28,7 +28,6 @@ $(document).ready(function(){
         menuToggle.classList.toggle('active');
         showcase.classList.toggle('active');
       })
-      
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
