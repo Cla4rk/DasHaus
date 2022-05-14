@@ -21,7 +21,7 @@ $(document).ready(function(){
         // removing smooth scroll on slide-up button click
         $('html').css("scrollBehavior", "auto");
     });
-     const menuToggle = document.querySelector('.toggle');
+    const menuToggle = document.querySelector('.toggle');
       const showcase = document.querySelector('.showcase');
 
       menuToggle.addEventListener('click', () => {
@@ -32,7 +32,7 @@ $(document).ready(function(){
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
         responsive: {

@@ -48,6 +48,7 @@ header .logo {
     background-size: 25px;
     background-position: center;
     cursor: pointer;
+    
 }
 
 .toggle.active {
@@ -158,16 +159,14 @@ header .logo {
 .social {
     width: calc(100% - 820px);
     position: absolute;
-    z-index: 10;
-    bottom: 60px;
+        
+    bottom: 50px;
     display: flex;
-    justify-content: left;
-    align-items: left;
 }
 
 .social li {
     padding-right: 180px;
-    list-style: none;
+    list-style: none
 }
 
 .social li p {
@@ -400,7 +399,7 @@ section .title::after{
 }
 .services .serv-content .card .box{
     width: 350px;
-    height: 300px;
+    height: 550px;
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover .box{
@@ -419,47 +418,46 @@ section .title::after{
     font-size: 14px;
     margin: 10px 0 7px 0;
 }
-
+.services p{
+    font-weight: 10;
+    margin-bottom: 20px;
+}
 /* teams section styling */
 .teams .title::after{
     content: "";
 }
 .teams .carousel .card{
-    background: #222;
-    border-radius: 6px;
-    padding: 25px 35px;
-    text-align: center;
+    background: url(images/Propiedad.png);
+    border-radius: 3px;
+    padding: 300px 35px;
+    height: 100px;
     overflow: hidden;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: #0071e3;
-}
-.teams .carousel .card .box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
+    background:; 
 }
 .teams .carousel .card:hover .box{
-    transform: scale(1.05);
+    -webkit-transition: color 1s;
+        -moz-transition: color 1s;
+        -ms-transition: color 1s;
+        -o-transition: color 1s;
+        transition: color 1s;
+        color: rgb(214, 214, 214);
 }
 .teams .carousel .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
+    width: 55px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-top: 260px; 
+    margin-left: -20px;
 }
-.teams .carousel .card img{
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid #0071e3;
-    transition: all 0.3s ease;
-}
-.teams .carousel .card:hover img{
-    border-color: #fff;
+.teams .carousel .card p {
+    font-size: 10px;
+    letter-spacing: 2px;
+    height: 0;
+    margin-bottom: 12px;
+    color: #b9b9b9;
 }
 .owl-dots{
     text-align: center;
@@ -471,7 +469,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid #0071e3!important;
+    border: 2px solid #ffffff!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -480,7 +478,7 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: #0071e3!important;
+    background: #ffffff!important;
 }
 
 /* contact section styling */
