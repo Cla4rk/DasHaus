@@ -1,180 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DasHaus</title>
+    <link rel="icon" type="image/x-icon" href="/images/DAico.ico">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="http://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <script src="https://code.nath.co/src/jQuery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 </head>
+
+<!--home<img style="position: absolute; z-index: 10000000000;" src="images/05.jpg" alt="">-->
+
 <body>
-    
-<section class="showcase">
-    <header>
-        <img style="width: 20%;" src="images/LogoGif.gif" class="gif"></img>
-        <div class="toggle"></div>
-    </header>
-    <video src="images/DayNight.webm" muted loop autoplay></video>
-    <div class="text">
-        <h1> CASAS DASHAUS </h2>
-        <h2> VIVIENDAS DE DISEÑO </h2>
-        <h2> MODERNO</h2>
-        <p style="font-size: 15px;"> Te proponemos elegir una casa, acceder a un diseño personalizado para cada propietario y tenerla lista en 4 meses en el terreno que desees. </p>
-        <p style="font-size: 15px;"> Diseño personalizado, construccion racional en tiempor récord, al mejor precio del mercado. </p>
-    </div>
-
-    <ul class="social">
-        <li> <a href="#services"><p>01</p>Información</a></li>
-        <li> <a href="#teams"><p>02</p>Casas</a></li>
-        <li> <a href="#about"><p>03</p>Personalización</a></li>
-        <li> <a href="#contact"><p>04</p>Contacto</a></li>
-    </ul>
-    </section>  
-        <nav class="navbar">
-            <div class="menu">
-                <ul>
-                    <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 01</p>
-                    <li><a href="#services" class="menu-btn">Información</a></li>
-                    <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 02</p>
-                    <li><a href="#teams">Casas</a></li>
-                    <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 03</p>
-                    <li><a href="#about">Personalización</a></li>
-                    <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 04</p>
-                    <li><a href="#contact">Contacto</a></li>
-                </ul>
+    <section class="showcase">
+        <header>
+            <img style="margin-left:40px; margin-top: 10px;" src="images/Sin título-2.png" class="gif"> </img>
+            <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </nav>
-    <!--home-->
-    <section class="home" id="home">
-    </section>
+        </header>
+        <video src="images/DayNight.webm" muted loop autoplay></video>
+        <div class="text">
+            <h1> CASAS DASHAUS </h2>
+                <h2> VIVIENDAS DE DISEÑO </h2>
+                <h2> MODERNO</h2>
+                <p style="font-size: 15px;"> Te proponemos elegir una casa, acceder a un diseño personalizado para cada
+                    propietario y tenerla lista en 4 meses en el terreno que desees. </p>
+                <p style="font-size: 15px;"> Diseño personalizado, construccion racional en tiempor récord, al mejor
+                    precio del mercado. </p>
+        </div>
 
+        <ul class="social">
+            <li> <a href="#informacion">
+                    <p>01</p>Información
+                </a></li>
+            <li> <a href="#casas">
+                    <p>02</p>Casas
+                </a></li>
+            <li> <a href="#personalizacion">
+                    <p>03</p>Personalización
+                </a></li>
+            <li> <a href="#contacto">
+                    <p>04</p>Contacto
+                </a></li>
+        </ul>
+    </section>
+    <nav class="navbar">
+        <div class="menu">
+            <ul>
+                <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 01</p>
+                <li><a href="#informacion" class="menu-btn">Información</a></li>
+                <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 02</p>
+                <li><a href="#casas">Casas</a></li>
+                <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 03</p>
+                <li><a href="#personalizacion">Personalización</a></li>
+                <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 04</p>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--home-->
+    <section class="home" id="home"></section>
     <!-- informacion section start -->
-    <section class="services" id="services">
+    <section class="informacion" id="informacion">
         <div class="max-width">
-            <h2 class="title">Informacion</h2>
+            <h2 class="title reveal">INFORMACION</h2>
             <div class="serv-content">
-                <div class="card">
+                <div class="card reveal">
                     <div class="box">
                         <div class="text" style=" font-weight: 10;">PRECIO</div>
                         <div style="font-size: 20px;" class="text">Desde u$s 68.000</div>
                         <br></br>
                         <p>El valor m2 mas bajo del mercado.</p>
-                        <p>DAS HAUS ofrece un diseño de vanguardia, un sistema constructivo industrializado con las mejores terminaciones y una relacion precio / calidad imposible de igualar.</p>
+                        <p>DAS HAUS ofrece un diseño de vanguardia, un sistema constructivo industrializado con las
+                            mejores terminaciones y una relacion precio / calidad imposible de igualar.</p>
                         <hr size="1" width="20%" color="white" style="margin-top: 77px;">
                         <div class="text" style=" font-weight: 10; margin-top: 25px;">SUSTENTABILIDAD</div>
                         <br></br>
-                        <p>Trabajamos con placas que proporcionan los más altos coeficientes de aislación térmica y acústica, permitiendo además un importante ahorro de energía.</p>
+                        <p>Trabajamos con placas que proporcionan los más altos coeficientes de aislación térmica y
+                            acústica, permitiendo además un importante ahorro de energía.</p>
                         <hr size="1" width="20%" color="white" style="margin-top: 77px;">
                     </div>
                 </div>
-                <div class="card">
+                <div class="card reveal">
                     <div class="box">
                         <i class=""></i>
                         <div class="text" style=" font-weight: 10;">TIEMPO</div>
                         <div style="font-size: 20px;" class="text">Lista en 4 meses</div>
                         <br></br>
-                        <p>Das Haus optimiza los tiempos, reducimos al máximo los tiempos de construcción con niveles de terminacion óptima.</p>
-                        <p>Utilizando procesos estandarizados e innovadores su DAS HAUS se entrega en tiempo record haciendo espacio a su nueva vida.</p>
+                        <p>Das Haus optimiza los tiempos, reducimos al máximo los tiempos de construcción con niveles de
+                            terminacion óptima.</p>
+                        <p>Utilizando procesos estandarizados e innovadores su DAS HAUS se entrega en tiempo record
+                            haciendo espacio a su nueva vida.</p>
                         <hr size="1" width="20%" color="white" style="margin-top: 39px;">
                         <div class="text" style=" font-weight: 10; margin-top: 25px;">VANGUARDIA</div>
                         <br></br>
-                        <p>La huella moderna incorpora el paisaje donde se emplaza cada DAS HAUS. La consideración del entorno en cada propuesta de DAS HAUS es fruto del análisis del mismo, adoptando la solución que mejor resuelve el sitio.</p>
+                        <p>La huella moderna incorpora el paisaje donde se emplaza cada DAS HAUS. La consideración del
+                            entorno en cada propuesta de DAS HAUS es fruto del análisis del mismo, adoptando la solución
+                            que mejor resuelve el sitio.</p>
                         <hr size="1" width="20%" color="white" style="margin-top: 57px;">
                     </div>
                 </div>
-                <div class="card">
+                <div class="card reveal">
                     <div class="box">
                         <i class=""></i>
                         <div class="text" style=" font-weight: 10;">DISEÑO</div>
                         <div style="font-size: 20px;" class="text">Armá la casa que soñás</div>
                         <br></br>
-                        <p>Diseñadas por el estudio f+b en colaboracion con bbq arq, apostando a la excelencia, nuestra DasHaus permiten personalizarlas segun cada usuario y construirlas en el terreno que prefiera.</p>
-                        <p>Su impronta moderna, da huella minimalista le agrega a su casa una pertenencia cultural propia de los más altos standares de nuestro tiempo.</p>
+                        <p>Diseñadas por el estudio f+b en colaboracion con bbq arq, apostando a la excelencia, nuestra
+                            DasHaus permiten personalizarlas segun cada usuario y construirlas en el terreno que
+                            prefiera.</p>
+                        <p>Su impronta moderna, da huella minimalista le agrega a su casa una pertenencia cultural
+                            propia de los más altos standares de nuestro tiempo.</p>
                         <hr size="1" width="20%" color="white">
-                        <div class="text" style=" font-weight: 10; margin-top: 25px;">CONSTRUCCION / EVOLUCION / TECNOLOGIA</div>
+                        <div class="text" style=" font-weight: 10; margin-top: 25px;">CONSTRUCCION / EVOLUCION /
+                            TECNOLOGIA</div>
                         <br></br>
-                        <p>DAS HAUS propone un nuevo modelo construsctivo que aplica la tecnología sobre la experiencia de la industria de montaje.</p>
+                        <p>DAS HAUS propone un nuevo modelo construsctivo que aplica la tecnología sobre la experiencia
+                            de la industria de montaje.</p>
                         <p>Una forma de vida, que prioriza el acceso posible, amigable y de calidad a la vivienda.</p>
                         <hr size="1" width="20%" color="white" style="margin-top: 37px;">
                     </div>
                 </div>
-               </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Casas section start -->
+    <section class="casas" id="casas">
+        <div class="max-width">
+            <h2 class="title reveal">CASAS</h2>
+            <div class="carousel owl-carousel reveal">
+                <div class="card">
+                    <div class="box">
+                        <div class="text">
+                            <p>01</p>Casa
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="text">
+                            <p>02</p>Casa
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="text">
+                            <p>03</p>Casa
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="text">
+                            <p>04</p>Casa
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="text">
+                            <p>05</p>Casa
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-<!-- Casas section start -->
-<section class="teams" id="teams">
-    <div class="max-width">
-        <h2 class="title">Casas</h2>
-        <div class="carousel owl-carousel">
-            <div class="card">
-                <div class="box">
-                    <div class="text"><p>01</p>Casa</div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <div class="text"><p>02</p>Casa</div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <div class="text"><p>03</p>Casa</div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <div class="text"><p>04</p>Casa</div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <div class="text"><p>05</p>Casa</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="about" id="about">
-    <h2 class="title">Personalizacion</h2>
+    <!-- Personalizacion section start -->
+    <section class="personalizacion" id="personalizacion">
+        <h2 class="title reveal">PERSONALIZACION</h2>
         <div id="slider">
             <input type="radio" name="slider" id="slide1" checked>
             <input type="radio" name="slider" id="slide2">
             <input type="radio" name="slider" id="slide3">
             <input type="radio" name="slider" id="slide4">
-            <div id="slides">
+            <div class="reveal" id="slides">
                 <div id="overflow">
                     <div class="inner">
                         <div class="slide slide_1">
                             <div class="slide-content">
-                                <h2>Slide 1</h2>
-                                <p></p>
+                                <p>01</p>Aluminio
                             </div>
                         </div>
                         <div class="slide slide_2">
                             <div class="slide-content">
-                                <h2>Slide 2</h2>
-                                <p></p>
+                                <p>02</p>Marfil
                             </div>
                         </div>
                         <div class="slide slide_3">
                             <div class="slide-content">
-                                <h2>Slide 3</h2>
-                                <p></p>
+                                <p>03</p>Madera
                             </div>
                         </div>
                         <div class="slide slide_4">
                             <div class="slide-content">
-                                <h2>Slide 4</h2>
-                                <p></p>
+                                <p>04</p>Grafito
                             </div>
                         </div>
                     </div>
@@ -186,19 +221,27 @@
                 <label for="slide3"></label>
                 <label for="slide4"></label>
             </div>
+
             <div id="bullets">
-                <label for="slide1"></label>
-                <label for="slide2"></label>
-                <label for="slide3"></label>
-                <label for="slide4"></label>
+                <label style="background: #dcdce0;" for="slide1"></label>
+                <label style="background: #d4d0c8;" for="slide2"></label>
+                <label style="background: #cdb79c;" for="slide3"></label>
+                <label style="background: #aaaaaf;" for="slide4"></label>
+                <a style=" color:white; letter-spacing: 3px;">
+                    ACABADO | </a>
+                <a class="tex" id="ola">Aluminio</a>
+                <a class="tex" id="ole">Marfil</a>
+                <a class="tex" id="oli">Madera</a>
+                <a class="tex" id="olo">Grafito</a>
             </div>
         </div>
-</section>
-<!-- Personalizacion section start
-<section class="about" id="about">
+        <hr class="move" style=" margin-left: 45%;margin-top: 20px; width:10%; text-align: center;" size="1">
+    </section>
+    <!-- Personalizacion section start
+<section class="personalizacion" id="personalizacion">
     <div class="max-width">
         <h2 class="title">Personalizacion</h2>
-        <div class="about-content">
+        <div class="personalizacion-content">
             <div class="column left">
                 <img src="images/05.jpg" alt="">
             </div>
@@ -213,10 +256,10 @@
     </div>
 </section>-->
     <!-- contacto section start -->
-    <section class="contact" id="contact">
+    <section class="contacto" id="contacto">
         <div class="max-width">
-            <h2 class="title">Contacto</h2>
-            <div class="contact-content">
+            <h2 class="title reveal">CONTACTO</h2>
+            <div class="contacto-content reveal">
                 <div class="column left">
                     <div class="text">Get in Touch</div>
                     <div class="icons">
@@ -224,7 +267,7 @@
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name</div>
-                                <div class="sub-title">Santiago Valero</div>
+                                <div class="sub-title">DasHaus</div>
                             </div>
                         </div>
                         <div class="row">
@@ -238,7 +281,7 @@
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">santiagovalero99@gmail.com</div>
+                                <div class="sub-title">DasHaus@gmail.com</div>
                             </div>
                         </div>
                     </div>
@@ -268,13 +311,17 @@
             </div>
         </div>
     </section>
-
     <!-- footer section start -->
-    <footer>
-        <span>Created By | Santiago Valero </span>
+    <footer class="footernav">
+        <span><a href="#informacion">INFORMACION</a> | <a href="#casas">CASAS</a> | <a
+                href="#personalizacion">PERSONALIZACION</a> |
+            <a href="#contacto">CONTACTO</a></span>
     </footer>
-
+    <footer>
+        <span>© 2022 DasHaus | All rights reserved | Privacy | Terms of Use | Desinged By: Santiago Valero</span>
+    </footer>
     <script src="app.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
