@@ -77,6 +77,22 @@ $(document).ready(function(){
             }
         }
     }
+    // Reveal
+    window.addEventListener('load',reveal2);
+
+    function reveal2(){
+        var reveals = document.querySelectorAll('.reveal2');
+
+        for(var i = 0; i < reveals.length; i ++){
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i]. getBoundingClientRect().top;
+            var revealpoint = 150;
+
+            if(revealtop < windowheight - revealpoint){
+                reveals[i].classList.add('active');
+            }
+        }
+    }
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,

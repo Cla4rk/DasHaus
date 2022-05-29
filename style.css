@@ -116,8 +116,6 @@ header {
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
     width: 50%;
-  
-
 }
 
 .showcase {
@@ -389,6 +387,7 @@ section .title::after{
 #overflow {
     width: auto;
     overflow: hidden;
+    
 }
 
 #slide1:checked~#slides .inner {
@@ -414,6 +413,7 @@ section .title::after{
 
 #slides .inner {
     width: 400%;
+    
 }
 
 #slides .slide {
@@ -427,6 +427,7 @@ section .title::after{
     letter-spacing: 1px;
     display: flex;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .slide-content{
     margin-left: 8px;
@@ -628,26 +629,31 @@ max-width: 100%;
 }
 /* casas section styling */
 .casas .carousel .card{
-    background: url(images/Propiedad.png);
+    background: url(images/Propiedad2.png);
     border-radius: 3px;
     padding: 300px 35px;
     height: 100px;
     overflow: hidden;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; 
 }
 .casas .carousel .card .text{
     width: 55px;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 260px; 
-    margin-left: -20px;
+    margin-left: -15px;
+    font-weight: 100;
+    color: white;
+    font-family: Roboto, sans-serif;
 }
 .casas .carousel .card p {
     font-size: 10px;
     letter-spacing: 2px;
     height: 0;
     margin-bottom: 12px;
+    font-weight: 300;
     color: #b9b9b9;
+    font-family: Roboto, sans-serif;
 }
 .owl-dots{
     text-align: center;
@@ -660,11 +666,12 @@ max-width: 100%;
     outline: none!important;
     border-radius: 50%;
     border: 2px solid #ffffff!important;
-    transition: all 0.3s ease;
+    transition: all 0.7s ease;
 }
 .owl-dot.active{
     width: 35px;
     border-radius: 14px;
+    
 }
 .owl-dot.active,
 .owl-dot:hover{
@@ -813,6 +820,16 @@ footer span {
 .reveal.active{
     opacity: 1;
     
+}
+/* reveal section */
+.reveal2 {
+    position: relative;
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+
+.reveal2.active {
+    opacity: 1;
 }
 @media (max-width: 500px) {
     .footernav span{
