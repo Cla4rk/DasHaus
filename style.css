@@ -319,6 +319,11 @@ section{
     padding: 0 80px;
     margin: auto;
 }
+.max-width2 {
+    max-width: 1900px;
+    padding: 0 10px;
+    margin: auto;
+}
 .personalizacion, .informacion, .casas, .contacto, footer{
     font-family: 'Inter', sans-serif;
     background-color: #131313;
@@ -629,19 +634,18 @@ max-width: 100%;
 }
 /* casas section styling */
 .casas .carousel .card{
-    background: url(images/Propiedad2.png);
-    border-radius: 3px;
-    padding: 300px 35px;
-    height: 100px;
+    background: url(images/Propiedad3.png);
+    padding: 340px 35px;
+    background-repeat: no-repeat;
+    background-position: center;
     overflow: hidden;
     transition: all 0.3s ease; 
 }
-.casas .carousel .card .text{
-    width: 55px;
+.casas .carousel .card .texto{
+    margin-top: 295px;
+    position: absolute;
     letter-spacing: 1px;
     font-size: 14px;
-    margin-top: 260px; 
-    margin-left: -15px;
     font-weight: 100;
     color: white;
     font-family: Roboto, sans-serif;
@@ -649,8 +653,6 @@ max-width: 100%;
 .casas .carousel .card p {
     font-size: 10px;
     letter-spacing: 2px;
-    height: 0;
-    margin-bottom: 12px;
     font-weight: 300;
     color: #b9b9b9;
     font-family: Roboto, sans-serif;
@@ -825,10 +827,24 @@ footer span {
 .reveal2 {
     position: relative;
     opacity: 0;
-    transition: all 1.5s ease;
+    transition: all 1s ease;
+    padding-top: 50px;
 }
 
 .reveal2.active {
+    padding-top: 0;
+    opacity: 1;
+}
+
+.reveal3 {
+    position: relative;
+    opacity: 0;
+    transition: all 1s ease;
+    padding-top: 50px;
+}
+
+.reveal3.active {
+    padding-top: 0;
     opacity: 1;
 }
 @media (max-width: 500px) {
