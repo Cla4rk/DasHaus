@@ -5,8 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:wght@300&display=swap');
 
-
-
 html{
     scroll-behavior: smooth;
 }
@@ -69,8 +67,6 @@ header {
 }
 
 /* Icon 4 */
-
-
 .toggle span:nth-child(1) {
     top: 0px;
     -webkit-transform-origin: left center;
@@ -639,7 +635,13 @@ max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
-    transition: all 0.3s ease; 
+    transition: all 0.7s ease; 
+}
+.casas .carousel .card:hover {
+    background: url(images/Propiedad4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.7s ease;
 }
 .casas .carousel .card .texto{
     margin-top: 295px;
