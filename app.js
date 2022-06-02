@@ -93,6 +93,7 @@ $(document).ready(function(){
             }
         }
     }
+    
         // Reveal
     window.addEventListener('load',reveal3);
 
