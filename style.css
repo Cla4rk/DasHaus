@@ -316,8 +316,8 @@ section{
     margin: auto;
 }
 .max-width2 {
-    max-width: 1900px;
-    padding: 0 10px;
+    max-width: 3000px;
+    padding: 0 0;
     margin: auto;
 }
 .personalizacion, .informacion, .casas, .contacto, footer{
@@ -391,34 +391,28 @@ section .title::after{
     
 }
 
-#slide1:checked~#slides .inner {
-    margin-left: 0;
+#slide1:checked~#slides .slide_1 {
+    opacity: 1;
     transition: 2s;
 }
 
-#slide2:checked~#slides .inner {
-    margin-left: -100%;
+#slide2:checked~#slides .slide_2 {
+    opacity: 1;
     transition: 2s;
 }
 
-#slide3:checked~#slides .inner {
-    margin-left: -200%;
+#slide3:checked~#slides .slide_3 {
+    opacity: 1;
     transition: 2s;
 }
 
-#slide4:checked~#slides .inner {
-    margin-left: -300%;
+#slide4:checked~#slides .slide_4 {
+    opacity: 1;
     transition: 2s;
-}
-
-
-#slides .inner {
-    width: 400%;
-    
 }
 
 #slides .slide {
-    width: 25%;
+    width: 100%;
     float: left;
     text-align: left;
     justify-content: left;
@@ -429,12 +423,14 @@ section .title::after{
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 2s;
 }
 .slide-content{
     margin-left: 8px;
     margin-top: 590px;
 }
 #slides .slide_1 {
+    opacity: 0;
     background-image: url(images/Aluminio.png);
     max-width: 100%;
     height: 650px;
@@ -443,24 +439,30 @@ section .title::after{
 }
 
 #slides .slide_2 {
+    position: absolute;
+    opacity: 0;
     background-image: url(images/Marfil.png);
     max-width: 100%;
-        height: 650px;
-        object-fit: contain;
-        background-position: center;
+    height: 650px;
+    object-fit: contain;
+    background-position: center;
 }
 
 #slides .slide_3 {
+    position: absolute;
+    opacity: 0;
     background-image: url(images/Madera.png);
     max-width: 100%;
-        height: 650px;
-        object-fit: contain;
-        background-position: center;
+    height: 650px;
+    object-fit: contain;
+    background-position: center;
 }
 
 #slides .slide_4 {
-background-image: url(images/Grafito.png);
-max-width: 100%;
+    opacity: 0;
+    position: absolute;
+    background-image: url(images/Grafito.png);
+    max-width: 100%;
     height: 650px;
     object-fit: contain;
     background-position: center;
@@ -630,21 +632,22 @@ max-width: 100%;
 }
 /* casas section styling */
 .casas .carousel .card{
-    background: url(images/Propiedad3.png);
-    padding: 340px 35px;
+    background: url(images/Propiedad4.png);
+    max-width: 100%;
+    padding: 340px 1px;
     background-repeat: no-repeat;
     background-position: center;
-    overflow: hidden;
     transition: all 0.7s ease; 
 }
 .casas .carousel .card:hover {
-    background: url(images/Propiedad4.png);
+    background: url(images/Propiedad3.png);
     background-repeat: no-repeat;
     background-position: center;
     transition: all 0.7s ease;
 }
 .casas .carousel .card .texto{
     margin-top: 295px;
+    margin-left: 20px;
     position: absolute;
     letter-spacing: 1px;
     font-size: 14px;
