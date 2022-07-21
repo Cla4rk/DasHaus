@@ -26,7 +26,6 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 @media (max-width: 500px) {
     header img {
         width: 50%;
@@ -630,23 +629,72 @@ section .title::after{
     margin-bottom: 20px;
 }
 /* casas section styling */
-.casas .carousel .card{
-    background: url(images/Propiedad4.png);
+.casas .carousel .card0{
+    background: url(images/01\ dia.png);
     max-width: 100%;
     padding: 340px 1px;
     background-repeat: no-repeat;
-    background-position: center;
     transition: all 0.7s ease; 
 }
-.casas .carousel .card:hover {
-    background: url(images/Propiedad3.png);
+.casas .carousel .card0:hover {
+    background: url(images/01\ noche.png);
     background-repeat: no-repeat;
-    background-position: center;
     transition: all 0.7s ease;
 }
-.casas .carousel .card .texto{
+.casas .carousel .card1 {
+    background: url(images/02\ dia.png);
+    max-width: 100%;
+    padding: 340px 1px;
+    background-repeat: no-repeat;
+    transition: all 0.7s ease;
+}
+.casas .carousel .card1:hover {
+    background: url(images/02\ noche.png);
+    background-repeat: no-repeat;
+    transition: all 0.7s ease;
+}
+.casas .carousel .card2 {
+    background: url(images/03\ dia.png);
+    max-width: 100%;
+    padding: 340px 1px;
+    background-repeat: no-repeat;
+    transition: all 0.7s ease;
+}
+
+.casas .carousel .card2:hover {
+    background: url(images/03\ noche.png);
+    background-repeat: no-repeat;
+    transition: all 0.7s ease;
+}
+.casas .carousel .card3 {
+    background: url(images/04\ dia.png);
+    max-width: 100%;
+    padding: 340px 1px;
+    background-repeat: no-repeat;
+    transition: all 0.7s ease;
+}
+
+.casas .carousel .card3:hover {
+    background: url(images/04\ noche.png);
+    background-repeat: no-repeat;
+    transition: all 0.7s ease;
+}
+.casas .carousel .card4 {
+    background: url(images/05\ dia.png);
+    max-width: 100%;
+    padding: 340px 1px;
+    background-repeat: no-repeat;
+    transition: all 0.7s ease;
+}
+
+.casas .carousel .card4:hover {
+    background: url(images/05\ noche.png);
+    background-repeat: no-repeat;
+    transition: all 0.7s ease;
+}
+.casas .carousel .texto{
     margin-top: 295px;
-    margin-left: 20px;
+    margin-left:20px;
     position: absolute;
     letter-spacing: 1px;
     font-size: 14px;
@@ -654,7 +702,7 @@ section .title::after{
     color: white;
     font-family: Roboto, sans-serif;
 }
-.casas .carousel .card p {
+.casas .carousel p {
     font-size: 10px;
     letter-spacing: 2px;
     font-weight: 300;
