@@ -634,10 +634,12 @@ section .title::after{
     max-width: 100%;
     padding: 340px 1px;
     background-repeat: no-repeat;
+    background-position: left;
     transition: all 0.7s ease; 
 }
 .casas .carousel .card0:hover {
     background: url(images/01\ noche.png);
+    background-position: left;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
@@ -645,11 +647,13 @@ section .title::after{
     background: url(images/02\ dia.png);
     max-width: 100%;
     padding: 340px 1px;
+    background-position: left;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
 .casas .carousel .card1:hover {
     background: url(images/02\ noche.png);
+    background-position: left;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
@@ -657,12 +661,14 @@ section .title::after{
     background: url(images/03\ dia.png);
     max-width: 100%;
     padding: 340px 1px;
+    background-position: left;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
 
 .casas .carousel .card2:hover {
     background: url(images/03\ noche.png);
+    background-position: left;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
@@ -670,12 +676,14 @@ section .title::after{
     background: url(images/04\ dia.png);
     max-width: 100%;
     padding: 340px 1px;
+    background-position: left;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
 
 .casas .carousel .card3:hover {
     background: url(images/04\ noche.png);
+    background-position: left;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
@@ -683,12 +691,14 @@ section .title::after{
     background: url(images/05\ dia.png);
     max-width: 100%;
     padding: 340px 1px;
+    background-position: left;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
 
 .casas .carousel .card4:hover {
     background: url(images/05\ noche.png);
+    background-position: left;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
