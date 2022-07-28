@@ -314,7 +314,7 @@ section{
     margin: auto;
 }
 .max-width2 {
-    max-width: 3000px;
+    max-width: 2000px;
     padding: 0 0;
     margin: auto;
 }
@@ -631,15 +631,15 @@ section .title::after{
 /* casas section styling */
 .casas .carousel .card0{
     background: url(images/01\ dia.png);
-    max-width: 100%;
     padding: 340px 1px;
+    object-fit: cover;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     transition: all 0.7s ease; 
 }
 .casas .carousel .card0:hover {
     background: url(images/01\ noche.png);
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
