@@ -175,7 +175,8 @@
                     </div>
                     <div class="box">
                         <div class="texto">
-                            <p>VER</p>PROYECTO
+                            <p>VER</p><button class="image-item" data-modal="true" data-gallery="01"
+                                aria-label="Open Food image gallery">PROYECTO</button>
                         </div>
                     </div>
                 </div>
@@ -376,9 +377,16 @@
             <a href="#contacto">CONTACTO</a></span>
     </footer>
     <footer>
-        <span>© 2022 DasHaus | All rights reserved | Privacy | Terms of Use | Desinged By: Santiago Valero</span>
+        <span>© 2022 DasHaus | All rights reserved | Privacy | Terms of Use | Desinged By: Santiago
+            Valero</span>
     </footer>
     <script src="app.js"></script>
+    <script type="module">
+        import initGallery from "./js/galleryApp.js";
+        initGallery('./data/galleries.json', {
+            speed: 600,
+        })
+    </script>
     <script src="script.js"></script>
     <script>
         $(window).on("load", function () {
