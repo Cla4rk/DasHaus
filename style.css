@@ -335,7 +335,7 @@ section .title{
     position: relative;
     text-align: center;
     font-size: 31px;
-    font-weight: 100;
+    font-weight: 200;
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Inter', sans-serif;
@@ -1007,7 +1007,11 @@ footer span {
     border: none;
     letter-spacing: 1px;
     font-weight: 300;
-    
+    transition: 1s;
+}
+
+.image-item:hover{
+    color: rgb(214, 214, 214);
 }
 
 .image-item img {
@@ -1015,4 +1019,25 @@ footer span {
     height: 100%;
     object-fit: cover;
     transition: transform 250ms cubic-bezier(0.79, 0.25, 0, 1.07);
+}
+
+@media screen and (max-width:820px) {
+    .informacion img {
+        display: none;
+    }
+}
+@media screen and (max-width:820px) {
+    .casas img {
+        display: none;
+    }
+}
+@media screen and (max-width:820px) {
+    .personalizacion img {
+        display: none;
+    }
+}
+@media screen and (max-width:820px) {
+    .contacto img {
+        display: none;
+    }
 }
