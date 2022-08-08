@@ -100,7 +100,6 @@ export default function createModal(){
       
       .modal__btn:is(:hover,:focus) {
         background-color: hsl(var(--bkg) / .7);
-        border: 4px solid hsl(var(--bkg) / .8);
       }
      
       .modal__btn svg {

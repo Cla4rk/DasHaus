@@ -3,10 +3,6 @@
       "name" : "01",
       "images" : [
         {
-            "src": "./Cabin/Plano.jpg",
-            "alt": "05"
-          },
-          {
             "src": "./Cabin/00.jpg",
             "alt": "06"
           },
@@ -37,6 +33,10 @@
           {
             "src": "./Cabin/07.jpg",
             "alt": "06"
+          },
+          {
+          "src": "./Cabin/Plano.jpg",
+            "alt": "05"
           }
       ]
     },
