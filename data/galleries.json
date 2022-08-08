@@ -3,11 +3,39 @@
       "name" : "01",
       "images" : [
         {
-            "src": "./images/05.jpg",
+            "src": "./Cabin/Plano.jpg",
             "alt": "05"
           },
           {
-            "src": "./images/06.jpg",
+            "src": "./Cabin/00.jpg",
+            "alt": "06"
+          },
+          {
+            "src": "./Cabin/01.jpg",
+            "alt": "06"
+          },
+          {
+            "src": "./Cabin/02.jpg",
+            "alt": "06"
+          },
+          {
+            "src": "./Cabin/03.jpg",
+            "alt": "06"
+          },
+          {
+            "src": "./Cabin/04.jpg",
+            "alt": "06"
+          },
+          {
+            "src": "./Cabin/05.jpg",
+            "alt": "06"
+          },
+          {
+            "src": "./Cabin/06.jpg",
+            "alt": "06"
+          },
+          {
+            "src": "./Cabin/07.jpg",
             "alt": "06"
           }
       ]

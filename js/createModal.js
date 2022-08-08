@@ -6,20 +6,20 @@ export default function createModal(){
           <div class="modal__btn-container">
             <button class="modal__btn modal__arrow modal__arrow--left" id="left" aria-label="Previous image">
               <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.25 6.75L4.75 12L10.25 17.25"></path>
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.25 12H5"></path>
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M10.25 6.75L4.75 12L10.25 17.25"></path>
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19.25 12H5"></path>
               </svg>
             </button>
             <button class="modal__btn modal__close" aria-label="Close gallery">
               <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L6.75 17.25"></path>
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.75 6.75L17.25 17.25"></path>
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M17.25 6.75L6.75 17.25"></path>
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M6.75 6.75L17.25 17.25"></path>
               </svg>
             </button>
             <button class="modal__btn modal__arrow modal__arrow--right" id="right" aria-label="Next image">
               <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.75 6.75L19.25 12L13.75 17.25"></path>
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 12H4.75"></path>
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M13.75 6.75L19.25 12L13.75 17.25"></path>
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 12H4.75"></path>
               </svg>
             </button>
           </div>
@@ -54,7 +54,7 @@ export default function createModal(){
       .modal {
         position: relative;
         margin: 2rem;
-        max-width: 900px;
+        max-width: 1500px;
         width: 100%;
         display: grid;
         place-items: center;
@@ -69,7 +69,7 @@ export default function createModal(){
       .modal__image {
         width: 100%;
         height: 100%;
-        aspect-ratio: 18/16;
+        aspect-ratio: 16/9;
         object-fit: cover;
       }
       
@@ -89,9 +89,9 @@ export default function createModal(){
       .modal__btn {
         display: grid;
         place-items: center;
-        background-color: hsl(var(--bkg) / .5);
-        color: hsl(var(--text));
-        padding: .5rem;
+        background-color: hsl(var(--bkg) / .1);
+        color: black;
+        padding: .1rem;
         border: 4px solid transparent;
         border-radius: 50%;
         cursor: pointer;
@@ -121,6 +121,7 @@ export default function createModal(){
       }
       
       .modal__indicator {
+        display:none;
         width: 1rem;
         height: 1rem;
         border-radius: 50%;
@@ -144,7 +145,9 @@ export default function createModal(){
       }
     </style>
     `)
+    
   }
+  
   
   
   
