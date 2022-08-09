@@ -72,7 +72,7 @@
             "alt": "06"
           },
           {
-            "src": "./images/DasCabin/Planta.jpg",
+            "src": "./images/DasC/Planta.jpg",
             "alt": "06"
           }
       ]
@@ -164,6 +164,10 @@
       "name" : "05",
       "images" : [
           {
+            "src": "./images/DasLH/000.jpg",
+            "alt": "06"
+          },
+          {
             "src": "./images/DasLH/00.jpg",
             "alt": "06"
           },
@@ -205,10 +209,6 @@
           },
           {
             "src": "./images/DasLH/10.jpg",
-            "alt": "06"
-          },
-          {
-            "src": "./images/DasLH/11.jpg",
             "alt": "06"
           },
           {
