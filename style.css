@@ -422,13 +422,17 @@ section .title::after{
     text-align: left;
     justify-content: left;
     align-items: center;
-    color: rgb(41, 41, 41);
+    color: white;
     font-size: 12px;
     letter-spacing: 1px;
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 2s;
+    transition: 4s;
+}
+#slides .slide-content p{
+    font-size: 10px;
+    color: #d6d6d6;
 }
 .slide-content{
     margin-left: 8px;
@@ -812,7 +816,7 @@ section .title::after{
     outline: none;
     padding: 0 15px;
     font-size: 17px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     transition: all 1s ease;
 }
 .contacto .right form .field input:focus,

@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DasHaus | Viviendas</title>
-    <link rel="shortcut icon" type="image/png" href="/images/DAico.png">
+    <link rel="shortcut icon" type="image/png" href="/images/DAico.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="http://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
-    <!--<script src="https://code.nath.co/src/jQuery.min.js"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -22,7 +21,7 @@
 <body>
     <section class="showcase">
         <header>
-            <img style="margin-left:40px; margin-top: 10px;" src="images/Sin título-2.png" class="gif"> </img>
+            <img style="margin-left:40px; margin-top: 10px;" src="images/LogoInicio.png" class="gif"> </img>
             <div class="toggle">
                 <span></span>
                 <span></span>
@@ -69,7 +68,7 @@
     <section class="home" id="home"></section>
     <!-- informacion section start -->
     <section class="informacion" id="informacion">
-        <img class="title reveal" src="images/Sin título-2.png" style="position:absolute; margin-left: 20px;">
+        <img class="title reveal" src="images/LogoInicio.png" style="position:absolute; margin-left: 20px;">
         <div class="max-width">
             <h2 class="title reveal">INFORMACION</h2>
             <div class="serv-content">
@@ -154,7 +153,7 @@
     </section>
     <!-- Casas section start -->
     <section class="casas" id="casas">
-        <img class="title reveal" src="images/Sin título-2.png" style="position:absolute; margin-left: 20px;">
+        <img class="title reveal" src="images/LogoInicio.png" style="position:absolute; margin-left: 20px;">
         <div class="max-width2">
             <h2 class="title reveal">CASAS</h2>
             <div class="carousel owl-carousel reveal">
@@ -334,7 +333,7 @@
     </section>
     <!-- Personalizacion section start -->
     <section class="personalizacion" id="personalizacion">
-        <img class="title reveal" src="images/Sin título-2.png" style="position:absolute; margin-left: 20px;">
+        <img class="title reveal" src="images/LogoInicio.png" style="position:absolute; margin-left: 20px;">
         <h2 class="title reveal">PERSONALIZACION</h2>
         <div id="slider">
             <input type="radio" name="slider" id="slide1" checked>
@@ -390,7 +389,7 @@
     </section>
     <!-- contacto section start -->
     <section class="contacto" id="contacto">
-        <img class="title reveal" src="images/Sin título-2.png" style="position:absolute; margin-left: 20px;">
+        <img class="title reveal" src="images/LogoInicio.png" style="position:absolute; margin-left: 20px;">
         <div class="max-width">
             <h2 class="title reveal">CONTACTO</h2>
             <div class="contacto-content reveal">
@@ -422,20 +421,20 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://formspree.io/f/myyvylgw" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="Name" placeholder="Full Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="Email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
                             <input type="text" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea name="Message" cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
