@@ -800,7 +800,8 @@ section .title::after{
     align-items: center;
 }
 .contacto .contacto-content .row .info{
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-bottom:12px ;
 }
 .contacto .contacto-content .row i{
     font-size: 25px;
