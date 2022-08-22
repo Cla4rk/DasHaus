@@ -609,6 +609,12 @@ section .title::after{
         text-align: center;
     }
 }
+.perdesc{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 10;
+}
 
 /* personalizacion  section styling */
 .personalizacion{
