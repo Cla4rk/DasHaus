@@ -442,7 +442,7 @@ section .title::after{
 }
 #slides .slide_1 {
     opacity: 0;
-    background-image: url(images/mat1.jpg);
+    background-image: url(images/mat1.webp);
     max-width: 100%;
     height: 650px;
     object-fit: contain;
@@ -452,7 +452,7 @@ section .title::after{
 #slides .slide_2 {
     position: absolute;
     opacity: 0;
-    background-image: url(images/mat2.jpg);
+    background-image: url(images/mat2.webp);
     max-width: 100%;
     height: 650px;
     object-fit: contain;
@@ -462,7 +462,7 @@ section .title::after{
 #slides .slide_3 {
     position: absolute;
     opacity: 0;
-    background-image: url(images/mat3.jpg);
+    background-image: url(images/mat3.webp);
     max-width: 100%;
     height: 650px;
     object-fit: contain;
@@ -472,7 +472,7 @@ section .title::after{
 #slides .slide_4 {
     opacity: 0;
     position: absolute;
-    background-image: url(images/mat4.jpg);
+    background-image: url(images/mat4.webp);
     max-width: 100%;
     height: 650px;
     object-fit: contain;
@@ -481,7 +481,7 @@ section .title::after{
 #slides .slide_5 {
     opacity: 0;
     position: absolute;
-    background-image: url(images/mat5.jpg);
+    background-image: url(images/mat5.webp);
     max-width: 100%;
     height: 650px;
     object-fit: contain;
@@ -517,7 +517,7 @@ section .title::after{
     padding-top: 20px;
     margin-right: 150px;
 }
-#bullets a {
+#bullets u {
     margin-top: 1px;
     position: absolute;
     color: white;
@@ -609,12 +609,35 @@ section .title::after{
         text-align: center;
     }
 }
-.perdesc{
+.columnp {
+    display: flex;
+    float: left;
+    width: 350px;
+    padding: 10px;
+    height: 100px;
+}
+
+.rowp {
+    content: "";
+    display: table;
+    position: relative;
+    clear: both;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%, -50%);
+}
+.perdesc {
+    font-size: 16px;
     color: white;
-    text-align: center;
-    padding-top: 20px;
+    text-align: left;
     font-weight: 10;
 }
+@media screen and (max-width: 850px) {
+    .rowp{
+        top: 100px;
+    }
+}
+
 
 /* personalizacion  section styling */
 .personalizacion{
@@ -669,74 +692,74 @@ section .title::after{
 }
 /* casas section styling */
 .casas .carousel .card0{
-    background: url(images/01\ dia.png);
+    background: url(images/01\ dia.webp);
     max-width: 100%;
-    padding: 340px 1px;
+    padding: 339px 1px;
     background-repeat: no-repeat;
     background-position: center;
     transition: all 0.7s ease; 
 }
 .casas .carousel .card0:hover {
-    background: url(images/01\ noche.png);
+    background: url(images/01\ noche.webp);
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
 .casas .carousel .card1 {
-    background: url(images/02\ dia.png);
+    background: url(images/02\ dia.webp);
     max-width: 100%;
-    padding: 340px 1px;
+    padding: 339px 1px;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
 .casas .carousel .card1:hover {
-    background: url(images/02\ noche.png);
+    background: url(images/02\ noche.webp);
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
 .casas .carousel .card2 {
-    background: url(images/03\ dia.png);
+    background: url(images/03\ dia.webp);
     max-width: 100%;
-    padding: 340px 1px;
+    padding: 339px 1px;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
 
 .casas .carousel .card2:hover {
-    background: url(images/03\ noche.png);
+    background: url(images/03\ noche.webp);
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
 .casas .carousel .card3 {
-    background: url(images/04\ dia.png);
+    background: url(images/04\ dia.webp);
     max-width: 100%;
-    padding: 340px 1px;
+    padding: 339px 1px;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
 
 .casas .carousel .card3:hover {
-    background: url(images/04\ noche.png);
+    background: url(images/04\ noche.webp);
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
 .casas .carousel .card4 {
-    background: url(images/05\ dia.png);
+    background: url(images/05\ dia.webp);
     max-width: 100%;
-    padding: 340px 1px;
+    padding: 339px 1px;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
 }
 
 .casas .carousel .card4:hover {
-    background: url(images/05\ noche.png);
+    background: url(images/05\ noche.webp);
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.7s ease;

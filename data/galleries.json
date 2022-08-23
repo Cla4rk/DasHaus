@@ -3,39 +3,39 @@
       "name" : "01",
       "images" : [
         {
-            "src": "./images/DasCabin/00.jpg",
+            "src": "./images/DasCabin/00.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasCabin/01.jpg",
+            "src": "./images/DasCabin/01.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasCabin/02.jpg",
+            "src": "./images/DasCabin/02.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasCabin/03.jpg",
+            "src": "./images/DasCabin/03.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasCabin/04.jpg",
+            "src": "./images/DasCabin/04.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasCabin/05.jpg",
+            "src": "./images/DasCabin/05.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasCabin/06.jpg",
+            "src": "./images/DasCabin/06.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasCabin/07.jpg",
+            "src": "./images/DasCabin/07.webp",
             "alt": "06"
           },
           {
-          "src": "./images/DasCabin/Planta.jpg",
+          "src": "./images/DasCabin/Planta.webp",
             "alt": "05"
           }
       ]
@@ -44,43 +44,35 @@
       "name" : "02",
       "images" : [
           {
-            "src": "./images/DasC/00.jpg",
+            "src": "./images/DasC/00.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasC/01.jpg",
+            "src": "./images/DasC/01.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasC/02.jpg",
+            "src": "./images/DasC/02.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasC/03.jpg",
+            "src": "./images/DasC/03.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasC/04.jpg",
+            "src": "./images/DasC/04.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasC/05.jpg",
+            "src": "./images/DasC/05.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasC/06.jpg",
+            "src": "./images/DasC/06.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasC/07.jpg",
-            "alt": "06"
-          },
-          {
-            "src": "./images/DasC/08.jpg",
-            "alt": "06"
-          },
-          {
-            "src": "./images/DasC/Planta.jpg",
+            "src": "./images/DasC/Planta.webp",
             "alt": "06"
           }
       ]
@@ -89,43 +81,43 @@
       "name" : "03",
       "images" : [
           {
-            "src": "./images/DasPabellon/00.jpg",
+            "src": "./images/DasPabellon/00.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasPabellon/01.jpg",
+            "src": "./images/DasPabellon/01.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasPabellon/02.jpg",
+            "src": "./images/DasPabellon/02.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasPabellon/03.jpg",
+            "src": "./images/DasPabellon/03.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasPabellon/04.jpg",
+            "src": "./images/DasPabellon/04.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasPabellon/05.jpg",
+            "src": "./images/DasPabellon/05.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasPabellon/06.jpg",
+            "src": "./images/DasPabellon/06.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasPabellon/07.jpg",
+            "src": "./images/DasPabellon/07.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasPabellon/08.jpg",
+            "src": "./images/DasPabellon/08.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasPabellon/Planta.jpg",
+            "src": "./images/DasPabellon/Planta.webp",
             "alt": "06"
           }
           
@@ -135,92 +127,100 @@
       "name" : "04",
       "images" : [
           {
-            "src": "./images/DasL/00.jpg",
+            "src": "./images/DasL/00.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasL/01.jpg",
+            "src": "./images/DasL/01.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasL/02.jpg",
+            "src": "./images/DasL/02.webp",
             "alt": "06"
-          } ,
+          },
           {
-            "src": "./images/DasL/03.jpg",
+            "src": "./images/DasL/03.webp",
             "alt": "06"
-          } ,
+          },
           {
-            "src": "./images/DasL/04.jpg",
+            "src": "./images/DasL/04.webp",
             "alt": "06"
-          } ,
+          },
           {
-            "src": "./images/DasL/05.jpg",
+            "src": "./images/DasL/05.webp",
             "alt": "06"
-          } ,
+          },
           {
-            "src": "./images/DasL/06.jpg",
+            "src": "./images/DasL/06.webp",
             "alt": "06"
-          } ,
+          },
           {
-            "src": "./images/DasL/07.jpg",
+            "src": "./images/DasL/07.webp",
             "alt": "06"
-          } 
+          },
+          {
+            "src": "./images/DasL/08.webp",
+            "alt": "06"
+          },
+          {
+            "src": "./images/DasL/09.webp",
+            "alt": "06"
+          }
       ]
     },
     {
       "name" : "05",
       "images" : [
           {
-            "src": "./images/DasLH/000.jpg",
+            "src": "./images/DasLH/000.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasLH/00.jpg",
+            "src": "./images/DasLH/00.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasLH/01.jpg",
+            "src": "./images/DasLH/01.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasLH/02.jpg",
+            "src": "./images/DasLH/02.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasLH/03.jpg",
+            "src": "./images/DasLH/03.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasLH/04.jpg",
+            "src": "./images/DasLH/04.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasLH/05.jpg",
+            "src": "./images/DasLH/05.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasLH/06.jpg",
+            "src": "./images/DasLH/06.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasLH/07.jpg",
+            "src": "./images/DasLH/07.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasLH/08.jpg",
+            "src": "./images/DasLH/08.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasLH/09.jpg",
+            "src": "./images/DasLH/09.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasLH/10.jpg",
+            "src": "./images/DasLH/10.webp",
             "alt": "06"
           },
           {
-            "src": "./images/DasLH/12.jpg",
+            "src": "./images/DasLH/12.webp",
             "alt": "06"
           }
       ]
