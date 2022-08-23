@@ -810,6 +810,16 @@ section .title::after{
 .owl-dot:hover{
     background: #ffffff!important;
 }
+.texcasas{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+@media screen and (max-width: 850px) {
+    .texcasas {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
 
 /* contacto section styling */
 .contacto .title::after{
