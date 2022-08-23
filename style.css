@@ -610,10 +610,10 @@ section .title::after{
     }
 }
 .columnp {
+    position: relative;
     display: flex;
     float: left;
-    width: 350px;
-    padding: 10px;
+    width: 410px;
     height: 100px;
 }
 
@@ -623,7 +623,7 @@ section .title::after{
     position: relative;
     clear: both;
     left: 50%;
-    top: 50px;
+    top: 60px;
     transform: translate(-50%, -50%);
 }
 .perdesc {
@@ -633,8 +633,15 @@ section .title::after{
     font-weight: 10;
 }
 @media screen and (max-width: 850px) {
-    .rowp{
-        top: 100px;
+    .columnp{
+        width: 310px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .rowp {
+        top:110px;
+        left: 60%;
+        
     }
 }
 
