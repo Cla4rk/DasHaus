@@ -60,6 +60,17 @@ export default function createModal(){
         place-items: center;
         overflow: hidden;
       }
+
+      @media screen and (max-width: 1400px) {
+    .modal {
+        max-width: 1000px;
+    }
+}
+      @media screen and (max-width: 1200px) {
+    .modal {
+        max-width: 900px;
+    }
+}
       
       .modal__image-container {
         display: flex;

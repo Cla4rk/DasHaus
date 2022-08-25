@@ -165,6 +165,10 @@
           {
             "src": "./images/DasL/09.webp",
             "alt": "06"
+          },
+          {
+            "src": "./images/DasL/Planta.webp",
+            "alt": "06"
           }
       ]
     },
@@ -221,6 +225,14 @@
           },
           {
             "src": "./images/DasLH/12.webp",
+            "alt": "06"
+          },
+          {
+            "src": "./images/DasLH/Planta PB.webp",
+            "alt": "06"
+          },
+          {
+            "src": "./images/DasLH/Planta PA.webp",
             "alt": "06"
           }
       ]

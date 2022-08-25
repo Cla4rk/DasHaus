@@ -30,6 +30,19 @@ header {
         width: 50%;
     }
 }
+.subtitle{
+    color: rgb(201, 201, 201);
+    font-size: 14px;
+    position: absolute;
+    margin: 68px 1px 1px 38px;
+    font-weight: 300;
+}
+@media screen and (max-width: 500px) {
+    .subtitle {
+        font-size: 12px;
+        margin: 75px 1px 1px 38px;
+    }
+}
 .toggle {
     display: block;
     width: 60px;
@@ -918,6 +931,14 @@ section .title::after{
 .right form .button-area button:hover{
   color: #ffffff;
   background: none;
+}
+@media screen and (max-width: 500px) {
+    .contacto .contacto-content .column {
+        width: calc(100%);
+    }
+    .contacto .contacto-content .left{
+        display: none;
+    }
 }
 
 /* footer section styling */
