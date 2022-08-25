@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#131313">
     <meta name="description"
         content="Te proponemos elegir una casa, acceder a un diseño personalizado para cada propietario y tenerla lista en 4 meses en el terreno que desees. Diseño personalizado, construcción racional en tiempo récord, al mejor precio del mercado.">
     <title>DasHaus | Viviendas</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/images/DAico.ico">
     <link rel="shortcut icon" type="image/ico" href="/images/DAico.ico">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
@@ -60,14 +63,22 @@
     <nav class="navbar">
         <div class="menu">
             <ul>
-                <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 01</p>
-                <li><a href="#informacion">Información</a></li>
-                <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 02</p>
-                <li><a href="#casas">Casas</a></li>
-                <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 03</p>
-                <li><a href="#personalizacion">Personalización</a></li>
-                <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 04</p>
-                <li><a href="#contacto">Contacto</a></li>
+                <li>
+                    <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 01</p>
+                    <a href="#informacion">Información</a>
+                </li>
+                <li>
+                    <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 02</p>
+                    <a href="#casas">Casas</a>
+                </li>
+                <li>
+                    <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 03</p>
+                    <a href="#personalizacion">Personalización</a>
+                </li>
+                <li>
+                    <p style="color: grey; margin-top: 20px; margin-bottom: 5px; opacity: 90%; font-size: 10px;"> 04</p>
+                    <a href="#contacto">Contacto</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -353,11 +364,11 @@
         <img alt="" class="title reveal" src="images/LogoInicio.png" style="position:absolute; margin-left: 20px;">
         <h2 class="title reveal">PERSONALIZACION</h2>
         <div id="slider">
-            <input type="radio" name="slider" id="slide1" checked>
-            <input type="radio" name="slider" id="slide2">
-            <input type="radio" name="slider" id="slide3">
-            <input type="radio" name="slider" id="slide4">
-            <input type="radio" name="slider" id="slide5">
+            <input placeholder="1" type="radio" name="slider" id="slide1" checked>
+            <input placeholder="2" type="radio" name="slider" id="slide2">
+            <input placeholder="3" type="radio" name="slider" id="slide3">
+            <input placeholder="4" type="radio" name="slider" id="slide4">
+            <input placeholder="5" type="radio" name="slider" id="slide5">
             <div class="reveal" id="slides">
                 <div id="overflow">
                     <div class="inner">
