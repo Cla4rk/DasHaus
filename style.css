@@ -825,6 +825,9 @@ section .title::after{
     padding-left: 200px;
     padding-right: 200px;
 }
+.texcontacto {
+    padding-bottom: 30px;
+}
 @media screen and (max-width: 850px) {
     .texcasas {
         padding-left: 0;
@@ -881,7 +884,7 @@ section .title::after{
     margin-bottom: 15px;
 }
 .contacto .right form .textarea{
-    height: 80px;
+    height: 120px;
     width: 100%;
 }
 .contacto .right form .name{

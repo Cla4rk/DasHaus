@@ -114,6 +114,7 @@ $(document).ready(function(){
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
+        dots:true ,
         autoplay: false,
         autoplayTimeOut: 2000,
         autoplayHoverPause: false,
