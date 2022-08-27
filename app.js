@@ -115,6 +115,7 @@ $(document).ready(function(){
         margin: 20,
         loop: true,
         dots:true ,
+        navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
         autoplay: false,
         autoplayTimeOut: 2000,
         autoplayHoverPause: false,
@@ -124,16 +125,19 @@ $(document).ready(function(){
                 nav: false
             },
             600:{
-                items: 2.5,
-                nav: false
+                items: 3.2,
+                dots:false,
+                nav: true
             },
             1200:{
-                items: 3.3,
-                nav: false
+                items: 3.2,
+                dots:false,
+                nav: true
             },
             1300:{
                 items: 3.5,
-                nav: false
+                dots:false,
+                nav: true
             }
         }
     });

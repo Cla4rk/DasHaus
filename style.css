@@ -712,7 +712,7 @@ section .title::after{
 .casas .carousel .card0{
     background: url(images/01\ dia.webp);
     max-width: 100%;
-    padding: 339px 1px;
+    padding: 340px 1px;
     background-repeat: no-repeat;
     background-position: center;
     transition: all 0.7s ease; 
@@ -726,7 +726,7 @@ section .title::after{
 .casas .carousel .card1 {
     background: url(images/02\ dia.webp);
     max-width: 100%;
-    padding: 339px 1px;
+    padding: 340px 1px;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
@@ -740,7 +740,7 @@ section .title::after{
 .casas .carousel .card2 {
     background: url(images/03\ dia.webp);
     max-width: 100%;
-    padding: 339px 1px;
+    padding: 340px 1px;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
@@ -755,7 +755,7 @@ section .title::after{
 .casas .carousel .card3 {
     background: url(images/04\ dia.webp);
     max-width: 100%;
-    padding: 339px 1px;
+    padding: 340px 1px;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
@@ -770,7 +770,7 @@ section .title::after{
 .casas .carousel .card4 {
     background: url(images/05\ dia.webp);
     max-width: 100%;
-    padding: 339px 1px;
+    padding: 340px 1px;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.7s ease;
@@ -802,6 +802,37 @@ section .title::after{
 .owl-dots{
     text-align: center;
     margin-top: 20px;
+}
+.owl-nav{
+    padding-top: 20px;
+    text-align: center;
+}
+.owl-next{
+    color: #131313;
+    width: 60px;
+    height: 55px;
+    background-image: url(./images/NextIcon.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    transition: 0.5s;
+    
+}
+.owl-next:hover{
+    background-size: 55%;
+    transition: 0.5s;
+}
+.owl-prev {
+    color: #131313;
+    width: 60px;
+    height: 55px;
+    background-image:url(./images/PrevIcon.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    transition: 0.5s;
+}
+.owl-prev:hover {
+    background-size: 55%;
+    transition: 0.5s;
 }
 .owl-dot{
     height: 13px;
