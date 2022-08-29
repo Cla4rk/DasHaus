@@ -1,4 +1,3 @@
-/*  import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:wght@300;400;500;600;700&display=swap');
 
@@ -75,7 +74,7 @@ header {
     transition: .70s ease-in-out;
 }
 
-/* Icon 4 */
+/* Icono */
 .toggle span:nth-child(1) {
     top: 0px;
     -webkit-transform-origin: left center;
@@ -368,8 +367,8 @@ section .title::after{
     transform: translateX(-50%);
 }
 
-/* home section */
-.home{
+/* FreeSpace */
+.freespace{
     height: 100vh;
 }
 
