@@ -86,7 +86,7 @@ $(document).ready(function(){
         for(var i = 0; i < reveals.length; i ++){
             var windowheight = window.innerHeight;
             var revealtop = reveals[i]. getBoundingClientRect().top;
-            var revealpoint = 150;
+            var revealpoint = 100;
 
             if(revealtop < windowheight - revealpoint){
                 reveals[i].classList.add('active');
@@ -94,22 +94,6 @@ $(document).ready(function(){
         }
     }
     
-        // Reveal
-    window.addEventListener('load',reveal3);
-
-    function reveal3(){
-        var reveals = document.querySelectorAll('.reveal3');
-
-        for(var i = 0; i < reveals.length; i ++){
-            var windowheight = window.innerHeight;
-            var revealtop = reveals[i]. getBoundingClientRect().top;
-            var revealpoint = 150;
-
-            if(revealtop < windowheight - revealpoint){
-                reveals[i].classList.add('active');
-            }
-        }
-    }
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,

@@ -59,6 +59,11 @@ export default function createModal(){
         overflow: hidden;
       }
 
+      @media screen and (max-width: 1700px) {
+    .modal {
+        max-width: 1000px;
+    }
+}
       @media screen and (max-width: 1400px) {
     .modal {
         max-width: 1000px;
@@ -67,6 +72,11 @@ export default function createModal(){
       @media screen and (max-width: 1200px) {
     .modal {
         max-width: 900px;
+    }
+}
+      @media screen and (max-width: 850px) {
+    .modal {
+        max-width: 500px;
     }
 }
       
