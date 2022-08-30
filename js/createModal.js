@@ -76,9 +76,20 @@ export default function createModal(){
 }
       @media screen and (max-width: 850px) {
     .modal {
-        max-width: 500px;
+        max-width: 650px;
     }
 }
+      @media screen and (max-width: 850px) {
+    .modal__btn-container button svg{
+        width: 1rem;
+        height: 1rem;
+    }
+} 
+      @media screen and (max-width: 850px) {
+    .modal__btn-container button{
+        border: 2px solid transparent;
+    }
+} 
       
       .modal__image-container {
         display: flex;
