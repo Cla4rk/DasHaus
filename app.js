@@ -21,6 +21,7 @@ $(document).ready(function(){
 		$(this).toggleClass('open');
 	});
 });
+
 //SmoothScrolling
     SmoothScroll({
         // Scrolling Core
@@ -91,7 +92,8 @@ $(document).ready(function(){
         responsive: {
             0:{
                 items: 1,
-                nav: false
+                nav: false,
+                loop:false
             },
             600:{
                 items: 3.2,
