@@ -402,7 +402,6 @@ section .title::after{
 #overflow {
     width: auto;
     overflow: hidden;
-    
 }
 
 #slide1:checked~#slides .slide_1 {
@@ -459,7 +458,6 @@ section .title::after{
     object-fit: contain;
     background-position: center;
 }
-
 #slides .slide_2 {
     position: absolute;
     opacity: 0;
@@ -498,7 +496,21 @@ section .title::after{
     object-fit: contain;
     background-position: center;
 }
+@media screen and (max-width: 850px) {
+    #slides .slide_1,
+    #slides .slide_2,
+    #slides .slide_3,
+    #slides .slide_4,
+    #slides .slide_5 {
+        height: 250px;
+    }
+}
+@media screen and (max-width: 850px) {
 
+    .slide-content {
+        margin-top: 190px;
+    }
+}
 #slide1:checked~#controls label:nth-child(2),
 #slide2:checked~#controls label:nth-child(3),
 #slide3:checked~#controls label:nth-child(4),
@@ -1025,19 +1037,7 @@ footer span {
 .reveal2.active {
     padding-top: 0;
     opacity: 1;
-}
-
-.reveal3 {
-    position: relative;
-    opacity: 0;
-    transition: all 1s ease;
-    padding-top: 50px;
-}
-
-.reveal3.active {
-    padding-top: 0;
-    opacity: 1;
-}
+} 
 @media (max-width: 500px) {
     .footernav span{
         margin-left: 0%; 
