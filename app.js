@@ -96,7 +96,7 @@ $(document).ready(function(){
                 loop:false
             },
             600:{
-                items: 3.2,
+                items: 2.5,
                 dots:false,
                 nav: true
             },

@@ -1150,22 +1150,22 @@ footer span {
     transition: transform 250ms cubic-bezier(0.79, 0.25, 0, 1.07);
 }
 
-@media screen and (max-width:820px) {
+@media screen and (max-width:844px) {
     .informacion img {
         display: none;
     }
 }
-@media screen and (max-width:820px) {
+@media screen and (max-width:844px) {
     .casas img {
         display: none;
     }
 }
-@media screen and (max-width:820px) {
+@media screen and (max-width:844px) {
     .personalizacion img {
         display: none;
     }
 }
-@media screen and (max-width:820px) {
+@media screen and (max-width:844px) {
     .contacto #C1 {
         display: none;
     }
